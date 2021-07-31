@@ -109,7 +109,7 @@ export class Game {
             eat(this.head,this.xspeed,this.yspeed,this.background);
         }
            
-         move(this.xspeed,this.yspeed,this.head, this.app.view.width,this.app.view.height,this.background);
+         move(this.xspeed,this.yspeed,this.head, this.app.view.width,this.app.view.height,this.background,this.app);
           
        }
       
